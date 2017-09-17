@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back"
+    tools:context="com.salman.registrationsystem.Activity.Registration">
+
+    <EditText
+        android:id="@+id/name"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"/>
+    <EditText
+        android:id="@+id/emailRegistration"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Email"/>
+    <EditText
+        android:id="@+id/passwordRegistration"
+        android:layout_width="fill_parent"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Password"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:hint="Enter Your Phone"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textColorHint="#ffffff"
+        android:hint="Enter Your Address"/>
+    <Button
+        android:id="@+id/signmeUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:background="@color/colorAccent"
+        android:text="Sign Up"/>
+
+</LinearLayout>

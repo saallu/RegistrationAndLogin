@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.salman.registrationsystem.Activity.MainActivity">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:hint="Enter Your Email"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:background="#ffff"
+        android:layout_height="40dp"
+        android:hint="Enter Your password"/>
+
+    <CheckBox
+        android:id="@+id/remembercheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+
+        android:text="Remember Me"
+
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:background="@null"
+        android:text="Log In"/>
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:background="@null"
+        android:layout_marginTop="10dp"
+        android:text="New Member ?\nsign up here"/>
+
+</LinearLayout>

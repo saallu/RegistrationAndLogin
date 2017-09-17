@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.salman.registrationsystem.Activity.UpdateActivity">
+
+    <EditText
+        android:id="@+id/updateName"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:hint="Enter Your Name"/>
+    <EditText
+        android:id="@+id/updatePhone"
+        android:layout_width="fill_parent"
+        android:background="#ffff"
+        android:layout_height="40dp"
+        android:hint="Enter Your Phone"/>
+    <EditText
+    android:id="@+id/updateAddress"
+    android:layout_width="fill_parent"
+    android:background="#ffff"
+    android:layout_height="40dp"
+    android:hint="Enter Your Address"/>
+
+
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="Update"/>
+
+</LinearLayout>
